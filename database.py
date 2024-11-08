@@ -2,6 +2,7 @@
 from sqlmodel import SQLModel, Session, create_engine
 from sqlmodel import SQLModel
 
+from models.models import Entry, Group, User
 
 
 sqlite_file_name = "database.db"
